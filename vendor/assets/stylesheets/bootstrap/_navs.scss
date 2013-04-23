@@ -19,7 +19,7 @@
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: $grayLighter;
+  background-color: $navHover;
 }
 
 // Prevent IE8 from misplacing imgs
@@ -40,7 +40,7 @@
   font-size: 11px;
   font-weight: bold;
   line-height: $baseLineHeight;
-  color: $grayLight;
+  color: $navHeaderColor;
   text-shadow: 0 1px 0 rgba(255,255,255,.5);
   text-transform: uppercase;
 }
@@ -71,9 +71,9 @@
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
-  color: $white;
+  color: $navActive;
   text-shadow: 0 -1px 0 rgba(0,0,0,.2);
-  background-color: $linkColor;
+  background-color: $navActiveBackground;
 }
 .nav-list [class^="icon-"],
 .nav-list [class*=" icon-"] {
